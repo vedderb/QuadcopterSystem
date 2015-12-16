@@ -44,7 +44,7 @@ The following parts are included with this repository:
 	- *start_QuadcopterTool* - Script for starting [QuadcopterTool](#quadcoptertool).
 	- *start_sim* - Script for starting [CopterSimGui](#coptersimgui) (that uses [CopterSim](#coptersim) and FaultCheck) and [QuadcopterTool](#quadcoptertool) for visualizing the simulation.
 * **Hardware** - hardware design files
-	- **MainBoard** - Design files files for the MainBoard and Ranging Board PCBs
+	- **MainBoard** - Design files for the MainBoard and Ranging Board PCBs
 * **Documentation**
 	- **Figures** - The figures in the documentation.
 	- **Figures_pdf_png** - Png versions of all PDF files for including them in markdown
