@@ -1,0 +1,7 @@
+Pin
+1 VCC			 2 GND
+3 ADC0/Ranging		 4
+5 Trigger (MaxSonar)	 6
+7 CANTX			 8 MaxSonar (UART4)
+9 CANRX			10
+

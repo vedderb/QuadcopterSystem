@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+rm -Rf $DIR"/Documentation/HTML/"*
+rm -Rf $DIR"/Documentation/PDF/"*
+
+# System description
+pandoc -f markdown README.md -o $DIR"/Documentation/PDF/description.pdf"
+
+# Tutorial
+pandoc -f markdown Tutorial.md -o $DIR"/Documentation/PDF/Tutorial.pdf"
+

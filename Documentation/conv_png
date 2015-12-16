@@ -1,0 +1,16 @@
+#!/bin/bash
+# Use sudo apt-get install poppler-utils
+
+rm -Rf Figures_pdf_png/*
+
+for ff in Figures/*.pdf;
+do
+	if [ -f "$ff" ]
+	then
+		filename=$(basename $ff)
+		extension=${filename##*.}
+		filename=${filename%.*}
+		pdftoppm -singlefile -rx 300 -ry 300 -png ${ff} "Figures_pdf_png/${filename}"
+	fi
+done
+

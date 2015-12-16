@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.autotools.core.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="RangeTest" buildProperties="" description="" id="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535.1625411148" name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1666073933" name="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base" resourceTypeBasedDiscovery="true" superClass="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base">
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.processor.1285159414" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.processor"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.thumb.1727785386" name="Thumb (-mthumb)" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.thumb"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.thumbinterwork.53146362" name="Thumb interwork (-mthumb-interwork)" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.thumbinterwork"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.endiannes.1744406279" name="Endiannes" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.endiannes"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.fpu.abi.364403298" name="Float ABI" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.fpu.abi"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.target.fpu.unit.2023509054" name="FPU Type" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.target.fpu.unit"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.level.257904033" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.level"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.format.293356894" name="Debug format" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.format"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.other.2038412016" name="Other debugging flags" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.other"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.prof.738030045" name="Generate prof information (-p)" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.prof"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.gprof.517251044" name="Generate gprof information (-pg)" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.debugging.gprof"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.createflash.1004054936" name="Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.createflash"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.createlisting.1051517432" name="Create Extended Listing" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.createlisting"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.printsize.1043897736" name="Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.linux.option.addtools.printsize"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="org.eclipse.cdt.cross.arm.gnu.linux.platform.base.2127565562" isAbstract="false" name="Linux Platform" osList="linux" superClass="org.eclipse.cdt.cross.arm.gnu.linux.platform.base"/>
+							<builder id="org.eclipse.cdt.cross.arm.gnu.linux.builder.base.1015270733" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="ARM Linux GNU Make builder" superClass="org.eclipse.cdt.cross.arm.gnu.linux.builder.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.490438383" name="ARM Linux GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.linux.assembler.base">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.input.326196440" superClass="org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.574118179" name="ARM Linux GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.input.1888836259" superClass="org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.2131602062" name="ARM Linux GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base">
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.input.259571319" superClass="org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.input"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.c.linker.base.418701265" name="ARM Linux GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.linux.c.linker.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.cpp.linker.base.114422760" name="ARM Linux GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.linux.cpp.linker.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.archiver.base.661080886" name="ARM Linux GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.linux.archiver.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.createflash.base.322097153" name="ARM Linux GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.linux.createflash.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.createlisting.base.1937190489" name="ARM Linux GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.linux.createlisting.base"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.linux.printsize.base.193614660" name="ARM Linux GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.linux.printsize.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="RangeTest.null.1825892704" name="RangeTest"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/RangeTest"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="-j4" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>-j4</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="-j4 upload" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>-j4 upload</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904.1198406977;org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.1648878974;org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.input.77657894">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535.1625411148;org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.2131602062;org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.input.259571319">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.cross.base.349622374;cdt.managedbuild.toolchain.gnu.cross.base.349622374.1096228784;cdt.managedbuild.tool.gnu.cross.c.compiler.1457944605;cdt.managedbuild.tool.gnu.c.compiler.input.1982253588">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535.1625411148;org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.490438383;org.eclipse.cdt.cross.arm.gnu.linux.assembler.base.input.326196440">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCStandardMakePerFileProfile"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904.1198406977;org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.1480471128;org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.input.1326456934">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535.1625411148;org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.574118179;org.eclipse.cdt.cross.arm.gnu.linux.c.compiler.base.input.1888836259">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904;org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1133808904.1198406977;org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.1467918443;org.eclipse.cdt.cross.arm.gnu.linux.cpp.compiler.base.input.1882778370">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.linux.toolchain.base.1417711535">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

@@ -1,0 +1,678 @@
+EESchema Schematic File Version 2
+LIBS:QuadcopterMain-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:crf_1
+LIBS:dips-s
+LIBS:QuadcopterMain-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "RF Transceiver"
+Date "4 may 2013"
+Rev "A"
+Comp "Benjamin Vedder"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMA J1
+U 1 1 5416CE0C
+P 9550 3200
+F 0 "J1" H 9675 3515 60  0000 C CNN
+F 1 "SMA" H 9740 3440 60  0000 C CNN
+F 2 "w_conn_rf:sma_90_r300.124.403" H 9725 3370 50  0001 C CNN
+F 3 "" H 9550 3200 60  0000 C CNN
+	1    9550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CC2520 U3
+U 1 1 5416CE0D
+P 4200 3800
+F 0 "U3" H 4200 2400 60  0000 C CNN
+F 1 "CC2520" H 4200 5150 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm" H 4400 4000 60  0001 C CNN
+F 3 "" H 4400 4000 60  0000 C CNN
+	1    4200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C13
+U 1 1 5416CE0E
+P 5600 3250
+AR Path="/5416CE0E" Ref="C13"  Part="1" 
+AR Path="/5416CB9B/5416CE0E" Ref="C13"  Part="1" 
+F 0 "C13" H 5650 3350 50  0000 L CNN
+F 1 "39p" V 5700 3050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5600 3250 60  0001 C CNN
+F 3 "" H 5600 3250 60  0000 C CNN
+	1    5600 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C14
+U 1 1 5416CE0F
+P 5600 3500
+AR Path="/5416CE0F" Ref="C14"  Part="1" 
+AR Path="/5416CB9B/5416CE0F" Ref="C14"  Part="1" 
+F 0 "C14" H 5650 3600 50  0000 L CNN
+F 1 "82p" V 5700 3300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5600 3500 60  0001 C CNN
+F 3 "" H 5600 3500 60  0000 C CNN
+	1    5600 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C18
+U 1 1 5416CE10
+P 6800 3000
+AR Path="/5416CE10" Ref="C18"  Part="1" 
+AR Path="/5416CB9B/5416CE10" Ref="C18"  Part="1" 
+F 0 "C18" H 6850 3100 50  0000 L CNN
+F 1 "1.8p" H 6900 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6800 3000 60  0001 C CNN
+F 3 "" H 6800 3000 60  0000 C CNN
+	1    6800 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C21
+U 1 1 5416CE11
+P 7350 3500
+AR Path="/5416CE11" Ref="C21"  Part="1" 
+AR Path="/5416CB9B/5416CE11" Ref="C21"  Part="1" 
+F 0 "C21" H 7400 3600 50  0000 L CNN
+F 1 "1.5p" V 7500 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7350 3500 60  0001 C CNN
+F 3 "" H 7350 3500 60  0000 C CNN
+	1    7350 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR39
+U 1 1 5416CE12
+P 6800 3300
+F 0 "#PWR39" H 6800 3300 30  0001 C CNN
+F 1 "GND" H 6800 3230 30  0001 C CNN
+F 2 "" H 6800 3300 60  0000 C CNN
+F 3 "" H 6800 3300 60  0000 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR38
+U 1 1 5416CE13
+P 6650 4300
+F 0 "#PWR38" H 6650 4300 30  0001 C CNN
+F 1 "GND" H 6650 4230 30  0001 C CNN
+F 2 "" H 6650 4300 60  0000 C CNN
+F 3 "" H 6650 4300 60  0000 C CNN
+	1    6650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C22
+U 1 1 5416CE14
+P 8200 3600
+AR Path="/5416CE14" Ref="C22"  Part="1" 
+AR Path="/5416CB9B/5416CE14" Ref="C22"  Part="1" 
+F 0 "C22" H 8250 3700 50  0000 L CNN
+F 1 "1.8p" H 8000 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8200 3600 60  0001 C CNN
+F 3 "" H 8200 3600 60  0000 C CNN
+	1    8200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C23
+U 1 1 5416CE15
+P 9200 3600
+AR Path="/5416CE15" Ref="C23"  Part="1" 
+AR Path="/5416CB9B/5416CE15" Ref="C23"  Part="1" 
+F 0 "C23" H 9250 3700 50  0000 L CNN
+F 1 "1p" H 9300 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9200 3600 60  0001 C CNN
+F 3 "" H 9200 3600 60  0000 C CNN
+	1    9200 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR43
+U 1 1 5416CE16
+P 8200 3950
+F 0 "#PWR43" H 8200 3950 30  0001 C CNN
+F 1 "GND" H 8200 3880 30  0001 C CNN
+F 2 "" H 8200 3950 60  0000 C CNN
+F 3 "" H 8200 3950 60  0000 C CNN
+	1    8200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR44
+U 1 1 5416CE17
+P 9200 3950
+F 0 "#PWR44" H 9200 3950 30  0001 C CNN
+F 1 "GND" H 9200 3880 30  0001 C CNN
+F 2 "" H 9200 3950 60  0000 C CNN
+F 3 "" H 9200 3950 60  0000 C CNN
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C17
+U 1 1 5416CE18
+P 6650 2100
+AR Path="/5416CE18" Ref="C17"  Part="1" 
+AR Path="/5416CB9B/5416CE18" Ref="C17"  Part="1" 
+F 0 "C17" H 6700 2200 50  0000 L CNN
+F 1 "100n" H 6750 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6650 2100 60  0001 C CNN
+F 3 "" H 6650 2100 60  0000 C CNN
+	1    6650 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR37
+U 1 1 5416CE19
+P 6650 2400
+F 0 "#PWR37" H 6650 2400 30  0001 C CNN
+F 1 "GND" H 6650 2330 30  0001 C CNN
+F 2 "" H 6650 2400 60  0000 C CNN
+F 3 "" H 6650 2400 60  0000 C CNN
+	1    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C15
+U 1 1 5416CE1A
+P 6050 2100
+AR Path="/5416CE1A" Ref="C15"  Part="1" 
+AR Path="/5416CB9B/5416CE1A" Ref="C15"  Part="1" 
+F 0 "C15" H 6100 2200 50  0000 L CNN
+F 1 "100n" H 6150 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6050 2100 60  0001 C CNN
+F 3 "" H 6050 2100 60  0000 C CNN
+	1    6050 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR35
+U 1 1 5416CE1B
+P 6050 2400
+F 0 "#PWR35" H 6050 2400 30  0001 C CNN
+F 1 "GND" H 6050 2330 30  0001 C CNN
+F 2 "" H 6050 2400 60  0000 C CNN
+F 3 "" H 6050 2400 60  0000 C CNN
+	1    6050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C12
+U 1 1 5416CE1C
+P 5500 2100
+AR Path="/5416CE1C" Ref="C12"  Part="1" 
+AR Path="/5416CB9B/5416CE1C" Ref="C12"  Part="1" 
+F 0 "C12" H 5550 2200 50  0000 L CNN
+F 1 "100n" H 5600 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5500 2100 60  0001 C CNN
+F 3 "" H 5500 2100 60  0000 C CNN
+	1    5500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR33
+U 1 1 5416CE1D
+P 5500 2400
+F 0 "#PWR33" H 5500 2400 30  0001 C CNN
+F 1 "GND" H 5500 2330 30  0001 C CNN
+F 2 "" H 5500 2400 60  0000 C CNN
+F 3 "" H 5500 2400 60  0000 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C20
+U 1 1 5416CE1E
+P 7100 1850
+AR Path="/5416CE1E" Ref="C20"  Part="1" 
+AR Path="/5416CB9B/5416CE1E" Ref="C20"  Part="1" 
+F 0 "C20" H 7150 1950 50  0000 L CNN
+F 1 "10u" H 7200 1750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7100 1850 60  0001 C CNN
+F 3 "" H 7100 1850 60  0000 C CNN
+	1    7100 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR42
+U 1 1 5416CE1F
+P 7100 2400
+F 0 "#PWR42" H 7100 2400 30  0001 C CNN
+F 1 "GND" H 7100 2330 30  0001 C CNN
+F 2 "" H 7100 2400 60  0000 C CNN
+F 3 "" H 7100 2400 60  0000 C CNN
+	1    7100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR41
+U 1 1 5416CE20
+P 7100 1400
+F 0 "#PWR41" H 7100 1500 30  0001 C CNN
+F 1 "VCC" H 7100 1500 30  0000 C CNN
+F 2 "" H 7100 1400 60  0000 C CNN
+F 3 "" H 7100 1400 60  0000 C CNN
+	1    7100 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 3500 5400 3500
+Wire Wire Line
+	5100 3400 5200 3400
+Wire Wire Line
+	5200 3400 5200 3250
+Wire Wire Line
+	5200 3250 5400 3250
+Wire Wire Line
+	5800 3250 6500 3250
+Wire Wire Line
+	6500 3250 6500 2700
+Wire Wire Line
+	6500 2700 7100 2700
+Wire Wire Line
+	6800 2800 6800 2700
+Connection ~ 6800 2700
+Wire Wire Line
+	6800 3200 6800 3300
+Wire Wire Line
+	5800 3500 7150 3500
+Wire Wire Line
+	6650 3600 6650 3500
+Connection ~ 6650 3500
+Wire Wire Line
+	6650 4200 6650 4300
+Wire Wire Line
+	8000 3500 7550 3500
+Wire Wire Line
+	8000 2700 8000 3500
+Wire Wire Line
+	8000 2700 7700 2700
+Wire Wire Line
+	8000 3100 8350 3100
+Connection ~ 8000 3100
+Wire Wire Line
+	8950 3100 9450 3100
+Wire Wire Line
+	8200 3100 8200 3400
+Connection ~ 8200 3100
+Wire Wire Line
+	9200 3400 9200 3100
+Connection ~ 9200 3100
+Wire Wire Line
+	9200 3800 9200 3950
+Wire Wire Line
+	8200 3800 8200 3950
+Wire Wire Line
+	5250 3100 5100 3100
+Wire Wire Line
+	5250 2900 5250 3100
+Wire Wire Line
+	6300 2900 5100 2900
+Wire Wire Line
+	5250 3000 5100 3000
+Connection ~ 5250 3000
+Wire Wire Line
+	5700 2700 5100 2700
+Wire Wire Line
+	5250 2700 5250 2800
+Wire Wire Line
+	5250 2800 5100 2800
+Wire Wire Line
+	6300 1500 6300 2900
+Wire Wire Line
+	6300 1800 6650 1800
+Wire Wire Line
+	6650 1800 6650 1900
+Wire Wire Line
+	6650 2300 6650 2400
+Wire Wire Line
+	6050 1900 6050 1800
+Wire Wire Line
+	6050 1800 5700 1800
+Wire Wire Line
+	5700 1500 5700 2700
+Wire Wire Line
+	6050 2300 6050 2400
+Wire Wire Line
+	5150 2600 5100 2600
+Wire Wire Line
+	5150 1500 5150 2600
+Wire Wire Line
+	5150 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 1900
+Wire Wire Line
+	5500 2300 5500 2400
+Wire Wire Line
+	7100 2050 7100 2400
+Wire Wire Line
+	7100 1400 7100 1650
+Wire Wire Line
+	5150 1500 7100 1500
+Connection ~ 7100 1500
+Connection ~ 5150 1800
+Connection ~ 5700 1500
+Connection ~ 6300 1500
+Wire Wire Line
+	3300 2600 3200 2600
+Wire Wire Line
+	3200 2600 3200 2250
+Wire Wire Line
+	3050 2250 5150 2250
+Connection ~ 5150 2250
+$Comp
+L R-RESCUE-QuadcopterMain R9
+U 1 1 5416CE21
+P 3050 2550
+F 0 "R9" V 3150 2350 50  0000 C CNN
+F 1 "10k" V 3050 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 3050 2550 60  0001 C CNN
+F 3 "" H 3050 2550 60  0000 C CNN
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2900 3050 2900
+Wire Wire Line
+	3050 2900 3050 2800
+Wire Wire Line
+	3050 2300 3050 2250
+Connection ~ 3200 2250
+$Comp
+L C-RESCUE-QuadcopterMain C11
+U 1 1 5416CE22
+P 5450 4300
+AR Path="/5416CE22" Ref="C11"  Part="1" 
+AR Path="/5416CB9B/5416CE22" Ref="C11"  Part="1" 
+F 0 "C11" H 5500 4400 50  0000 L CNN
+F 1 "100n" H 5200 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5450 4300 60  0001 C CNN
+F 3 "" H 5450 4300 60  0000 C CNN
+	1    5450 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 4300 5250 4300
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR34
+U 1 1 5416CE23
+P 5750 4400
+F 0 "#PWR34" H 5750 4400 30  0001 C CNN
+F 1 "GND" H 5750 4330 30  0001 C CNN
+F 2 "" H 5750 4400 60  0000 C CNN
+F 3 "" H 5750 4400 60  0000 C CNN
+	1    5750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4300 5750 4300
+Wire Wire Line
+	5750 4300 5750 4400
+$Comp
+L CRYSTAL X2
+U 1 1 5416CE24
+P 6500 5000
+F 0 "X2" H 6500 5150 60  0000 C CNN
+F 1 "32M" H 6500 4850 60  0000 C CNN
+F 2 "crf1:Crystal_5x3mm" H 6500 5000 60  0001 C CNN
+F 3 "" H 6500 5000 60  0000 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C16
+U 1 1 5416CE25
+P 6050 5400
+AR Path="/5416CE25" Ref="C16"  Part="1" 
+AR Path="/5416CB9B/5416CE25" Ref="C16"  Part="1" 
+F 0 "C16" H 6100 5500 50  0000 L CNN
+F 1 "27p" H 5800 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6050 5400 60  0001 C CNN
+F 3 "" H 6050 5400 60  0000 C CNN
+	1    6050 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-QuadcopterMain C19
+U 1 1 5416CE26
+P 7000 5400
+AR Path="/5416CE26" Ref="C19"  Part="1" 
+AR Path="/5416CB9B/5416CE26" Ref="C19"  Part="1" 
+F 0 "C19" H 7050 5500 50  0000 L CNN
+F 1 "27p" H 6750 5300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7000 5400 60  0001 C CNN
+F 3 "" H 7000 5400 60  0000 C CNN
+	1    7000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR36
+U 1 1 5416CE27
+P 6050 5750
+F 0 "#PWR36" H 6050 5750 30  0001 C CNN
+F 1 "GND" H 6050 5680 30  0001 C CNN
+F 2 "" H 6050 5750 60  0000 C CNN
+F 3 "" H 6050 5750 60  0000 C CNN
+	1    6050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR40
+U 1 1 5416CE28
+P 7000 5750
+F 0 "#PWR40" H 7000 5750 30  0001 C CNN
+F 1 "GND" H 7000 5680 30  0001 C CNN
+F 2 "" H 7000 5750 60  0000 C CNN
+F 3 "" H 7000 5750 60  0000 C CNN
+	1    7000 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-QuadcopterMain R10
+U 1 1 5416CE29
+P 5350 5400
+F 0 "R10" V 5450 5200 50  0000 C CNN
+F 1 "56k" V 5350 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5350 5400 60  0001 C CNN
+F 3 "" H 5350 5400 60  0000 C CNN
+	1    5350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR32
+U 1 1 5416CE2A
+P 5350 5750
+F 0 "#PWR32" H 5350 5750 30  0001 C CNN
+F 1 "GND" H 5350 5680 30  0001 C CNN
+F 2 "" H 5350 5750 60  0000 C CNN
+F 3 "" H 5350 5750 60  0000 C CNN
+	1    5350 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5000 5350 5000
+Wire Wire Line
+	5350 5000 5350 5150
+Wire Wire Line
+	5350 5650 5350 5750
+Wire Wire Line
+	5100 4700 6050 4700
+Wire Wire Line
+	6050 4700 6050 5200
+Wire Wire Line
+	6200 5000 6050 5000
+Connection ~ 6050 5000
+Wire Wire Line
+	5100 4600 7000 4600
+Wire Wire Line
+	7000 4600 7000 5200
+Wire Wire Line
+	6800 5000 7000 5000
+Connection ~ 7000 5000
+Wire Wire Line
+	6050 5600 6050 5750
+Wire Wire Line
+	7000 5600 7000 5750
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR31
+U 1 1 5416CE2B
+P 3100 5200
+F 0 "#PWR31" H 3100 5200 30  0001 C CNN
+F 1 "GND" H 3100 5130 30  0001 C CNN
+F 2 "" H 3100 5200 60  0000 C CNN
+F 3 "" H 3100 5200 60  0000 C CNN
+	1    3100 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5000 3100 5000
+Wire Wire Line
+	3100 5000 3100 5200
+$Comp
+L GND-RESCUE-QuadcopterMain #PWR45
+U 1 1 5416CE2C
+P 9750 3500
+F 0 "#PWR45" H 9750 3500 30  0001 C CNN
+F 1 "GND" H 9750 3430 30  0001 C CNN
+F 2 "" H 9750 3500 60  0000 C CNN
+F 3 "" H 9750 3500 60  0000 C CNN
+	1    9750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3300 9500 3400
+Wire Wire Line
+	9500 3400 9750 3400
+Wire Wire Line
+	9750 3400 9750 3500
+Wire Wire Line
+	9550 3300 9550 3400
+Connection ~ 9550 3400
+Wire Wire Line
+	9600 3300 9600 3400
+Connection ~ 9600 3400
+Wire Wire Line
+	9650 3300 9650 3400
+Connection ~ 9650 3400
+Wire Wire Line
+	8350 3100 8350 2600
+Wire Wire Line
+	8350 2600 8950 2600
+Wire Wire Line
+	8950 2600 8950 3100
+Text GLabel 8650 2650 3    60   Input ~ 0
+TL2
+Wire Wire Line
+	8650 2650 8650 2600
+Connection ~ 8650 2600
+Wire Wire Line
+	7100 2700 7100 3100
+Wire Wire Line
+	7100 3100 7700 3100
+Wire Wire Line
+	7700 3100 7700 2700
+Text GLabel 7300 3050 1    60   Input ~ 0
+TL3
+Wire Wire Line
+	7300 3050 7300 3100
+Connection ~ 7300 3100
+Wire Wire Line
+	6650 3600 6250 3600
+Wire Wire Line
+	6250 3600 6250 4200
+Wire Wire Line
+	6250 4200 6650 4200
+Text Notes 7900 4400 0    60   ~ 0
+RF-Circuit
+Text Notes 8850 3050 2    60   ~ 0
+PCB Trace\nInductor
+Text Notes 7550 3050 1    60   ~ 0
+PCB Trace\nInductor
+Text Notes 6800 4000 2    60   ~ 0
+PCB Trace\nInductor
+Connection ~ 6300 1800
+Connection ~ 5250 2900
+Connection ~ 5700 1800
+Connection ~ 5250 2700
+Wire Bus Line
+	5300 3700 5300 3050
+Wire Bus Line
+	5300 3050 6400 3050
+Wire Bus Line
+	6400 3050 6400 2500
+Wire Bus Line
+	6400 2500 9950 2500
+Wire Bus Line
+	9950 2500 9950 4450
+Wire Bus Line
+	9950 4450 6000 4450
+Wire Bus Line
+	6000 4450 6000 3700
+Wire Bus Line
+	6000 3700 5300 3700
+Text HLabel 3300 3200 0    60   Input ~ 0
+CC_SO
+Text HLabel 3300 3300 0    60   Input ~ 0
+CC_SI
+Text HLabel 3300 3400 0    60   Input ~ 0
+CC_CS_N
+Text HLabel 3300 3500 0    60   Input ~ 0
+CC_SCLK
+Text HLabel 3300 3750 0    60   Input ~ 0
+CC_GPIO5
+Text HLabel 3300 3850 0    60   Input ~ 0
+CC_GPIO4
+Text HLabel 3300 3950 0    60   Input ~ 0
+CC_GPIO3
+Text HLabel 3300 4050 0    60   Input ~ 0
+CC_GPIO2
+Text HLabel 3300 4150 0    60   Input ~ 0
+CC_GPIO1
+Text HLabel 3300 4250 0    60   Input ~ 0
+CC_GPIO0
+Text HLabel 3300 4650 0    60   Input ~ 0
+CC_RESET
+$EndSCHEMATC

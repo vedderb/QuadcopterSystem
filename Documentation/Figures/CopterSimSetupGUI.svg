@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg5729"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="CopterSimSetupGUI.svg">
+  <defs
+     id="defs5731">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4110"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4113"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4110-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4113-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="346.85271"
+     inkscape:cy="499.33703"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:object-nodes="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5737"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5734">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.50000012;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6247"
+       width="190"
+       height="140"
+       x="310"
+       y="402.36218"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="405.32227"
+       y="451.76941"
+       id="text6249"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6251"
+         x="405.32227"
+         y="451.76941">CopterSim</tspan><tspan
+         sodipodi:role="line"
+         x="405.32227"
+         y="479.26941"
+         id="tspan6253">library</tspan><tspan
+         sodipodi:role="line"
+         x="405.32227"
+         y="506.76941"
+         id="tspan6255">(C++)</tspan></text>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.50000012;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6247-8"
+       width="190"
+       height="140"
+       x="625"
+       y="402.36218"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="720.4082"
+       y="451.76941"
+       id="text6249-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="720.4082"
+         y="451.76941"
+         id="tspan6255-0">QuadcopterTool</tspan><tspan
+         sodipodi:role="line"
+         x="720.4082"
+         y="479.26941"
+         id="tspan6292">(for</tspan><tspan
+         sodipodi:role="line"
+         x="720.4082"
+         y="506.76941"
+         id="tspan6294">visualization)</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 500,477.36218 c 0,0 15,0 25,0 10,0 40,0 60,0 20,0 40,0 40,0"
+       id="path6296"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzc" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6247-0"
+       width="190"
+       height="105.59277"
+       x="309.67773"
+       y="612.36218"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="405.13965"
+       y="671.22791"
+       id="text6249-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="405.13965"
+         y="671.22791"
+         id="tspan6748">CopterSimGUI</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 405,612.36218 0,-70"
+       id="path6750"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="561.92529"
+       y="472.36218"
+       id="text3032"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3034"
+         x="561.92529"
+         y="472.36218"
+         style="font-size:22px">UDP</tspan></text>
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect6247-0-7"
+       width="190"
+       height="105.59277"
+       x="50"
+       y="422.36218"
+       rx="10"
+       ry="10" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="145.46191"
+       y="481.22791"
+       id="text6249-2-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="145.46191"
+         y="481.22791"
+         id="tspan6748-3">FaultCheck</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="m 240.00001,472.36218 70,0"
+       id="path6750-2"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

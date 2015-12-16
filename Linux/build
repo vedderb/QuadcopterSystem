@@ -1,0 +1,23 @@
+#!/bin/bash
+
+source set_env
+
+# FaultCheck
+cd FaultCheck
+qmake
+make
+cd ..
+
+# Sometimes UDP does not work with qt4 for some reason
+cd QuadcopterTool
+qmake-qt4
+make
+
+cd ../CopterSim
+qmake
+make
+
+cd ../CopterSimGui
+qmake
+make
+

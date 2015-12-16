@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source set_env
+
+# FaultCheck
+cd FaultCheck
+make clean
+rm -Rf *.so*
+cd ..
+
+cd QuadcopterTool
+make clean
+rm -f QuadcopterTool
+
+cd ../CopterSim
+make clean
+rm -Rf *.so*
+
+cd ../CopterSimGui
+make clean
+rm -f CopterSimGui
+

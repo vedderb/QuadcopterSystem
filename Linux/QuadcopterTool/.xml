@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapConfiguration>
+    <Anchor>
+        <id>0</id>
+        <px>0</px>
+        <py>0</py>
+        <pz>0.95</pz>
+    </Anchor>
+    <Anchor>
+        <id>1</id>
+        <px>4.8</px>
+        <py>4.5</py>
+        <pz>0.95</pz>
+    </Anchor>
+    <Anchor>
+        <id>3</id>
+        <px>0</px>
+        <py>4.5</py>
+        <pz>0.95</pz>
+    </Anchor>
+    <Anchor>
+        <id>4</id>
+        <px>4.8</px>
+        <py>0</py>
+        <pz>0.95</pz>
+    </Anchor>
+    <min_x>0.7</min_x>
+    <max_x>4.1</max_x>
+    <min_y>0.6</min_y>
+    <max_y>3.8</max_y>
+</MapConfiguration>
